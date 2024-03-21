@@ -3,6 +3,8 @@
 // Foundation Challenges:
 // Task: Create a variable called `fullName` and set it to your full name as one string.
 // Tip: Concatenate your first and last name together using the `+` operator.
+let firstName = ""
+let lastName = ""
 let fullName = ""; // Your solution here
 
 
@@ -10,6 +12,8 @@ let fullName = ""; // Your solution here
 
 // Task: Create a variable called `largestNumber` and set it to the larger of two given numbers.
 // Tip: Use an `if` statement to check which number is larger and assign it to `largestNumber`.
+let num1; // First number
+let num2; // Second number
 let largestNumber; // Your solution here
 
 
@@ -17,6 +21,7 @@ let largestNumber; // Your solution here
 
 // Task: Add the two given numbers together using the `+` operator.
 // Tip: Use the `+` operator to add the two numbers together.
+
 let sum; // Your solution here
 
 
@@ -26,6 +31,7 @@ let sum; // Your solution here
 
 // Task: Count how many letters are in a given password and store it in a variable called `passwordLength`.
 // Tip: Access the `length` property of the password string to find its length.
+let password;
 let passwordLength; // Your solution here
 
 
@@ -33,6 +39,7 @@ let passwordLength; // Your solution here
 
 // Task: Use the `typeof` operator to determine the type of the given variable.
 // Tip: Use the `typeof` operator followed by the variable name to determine its type.
+let variable;
 let type; // Your solution here
 
 
@@ -40,6 +47,7 @@ let type; // Your solution here
 
 // Task: Determine if a given name follows name tag rules (less than or equal to 8 characters and starts with a capital letter), and store the result in a variable called `isValidNameTag`.
 // Tip: Use an `if` statement to check if the name length is less than or equal to 8 characters and the first letter is uppercase.
+let nameTag;
 let isValidNameTag; // Your solution here
 
 
@@ -52,6 +60,7 @@ let isValidNameTag; // Your solution here
 
 // Task: Create a recipe string by joining a given array of ingredients with a "+" sign.
 // Tip: Use the `join()` method with "+" as the separator to concatenate the array elements.
+let ingredients = ["Ingredient1", "Ingredient2", "Ingredient3"];
 let recipeString; // Your solution here
 
 
@@ -66,6 +75,7 @@ let firstAndLastItems; // Your solution here
 
 // Task: Use a loop to iterate through the array and add each number to a running total.
 // Tip: Use a loop to iterate through the array, adding each number to a running total.
+let scores = [1, 2, 3, 4, 5]; // Array of scores
 let totalScores; // Your solution here
 
 
@@ -75,12 +85,13 @@ let totalScores; // Your solution here
 
 // Task: Use a loop to iterate from 0 to the given number, adding each number to a running total.
 // Tip: Use a loop to iterate from 0 to the given number, adding each number to a running total.
+let number = 5; // Number for range
 let totalRange; // Your solution here
 
 
 
 
-// Task: Use array methods like `pop()` and `unshift()` to manipulate the array.
+// Task: Use array methods like `pop()` and `unshift()` to manipulate the ingredients array.
 // Tip: Use array methods like `pop()` and `unshift()` to remove the last item and add it to the beginning of the array.
 let movedFirstAndLastItems; // Your solution here
 
@@ -89,6 +100,7 @@ let movedFirstAndLastItems; // Your solution here
 
 // Task: Use a loop to iterate through the array, adding odd numbers to a new array.
 // Tip: Use a loop to iterate through the array, adding odd numbers to a new array.
+let exampleArray = [1,3,4,2,34,55,2,6,8,11,12,25,67,88,90,102]
 let oddNumbers; // Your solution here
 
 
@@ -99,6 +111,7 @@ let oddNumbers; // Your solution here
 
 // Task: Simply create an array with the given ingredients.
 // Tip: Create an array with the given ingredients.
+
 let recipeIngredients = ["Bacon", "Lettuce", "Tomato"];
 
 
